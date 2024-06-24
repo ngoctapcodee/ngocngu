@@ -1,0 +1,1165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFood</title>
+    <!-- for icons  -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- bootstrap  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- for swiper slider  -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!-- fancy box  -->
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+    <!-- custom css  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body-fixed">
+    <!-- start of header  -->
+    <header class="site-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="header-logo">
+                        <a href="index.html">
+                            <img src="logo.png" width="160" height="36" alt="Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="main-navigation">
+                        <button class="menu-toggle"><span></span><span></span></button>
+                        <nav class="header-menu">
+                            <ul class="menu food-nav-menu">
+                                <li><a href="#home">Trang chủ</a></li>
+                                <li><a href="#about">Về chúng tôi</a></li>
+                                <li><a href="#menu">Thực đơn</a></li>
+                                <li><a href="#gallery">Trưng bày</a></li>
+                                <li><a href="#blog">Nhật kí</a></li>
+                                <li><a href="#contact">Liên hệ</a></li>
+                            </ul>
+                        </nav>
+                        <div class="header-right">
+                            <form action="#" class="header-search-form for-des">
+                                <input type="search" class="form-input" placeholder="Tìm kiếm ở đây...">
+                                <button type="submit">
+                                    <i class="uil uil-search"></i>
+                                </button>
+                            </form>
+                            <a href="javascript:void(0)" class="header-btn header-cart">
+                                <i class="uil uil-shopping-bag"></i>
+                                <span class="cart-number">3</span>
+                            </a>
+                            <a href="javascript:void(0)" class="header-btn">
+                                <i class="uil uil-user-md"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header ends  -->
+
+    <div id="viewport">
+        <div id="js-scroll-content">
+            <section class="main-banner" id="home">
+                <div class="js-parallax-scene">
+                    <div class="banner-shape-1 w-100" data-depth="0.30">
+                        <img src="assets/images/berry.png" alt="">
+                    </div>
+                    <div class="banner-shape-2 w-100" data-depth="0.25">
+                        <img src="assets/images/leaf.png" alt="">
+                    </div>
+                </div>
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="banner-text">
+                                    <h1 class="h1-title">
+                                        Chào mừng đến với nhà hàng
+                                        <span>NFood</span>
+                                        của chúng tôi.
+                                    </h1>
+                                    <p>NFood hân hạnh chào đón quý khách đến trải nghiệm một hành trình ẩm thực độc đáo, nơi hội tụ
+                                        những tinh hoa của ẩm thực châu Âu và châu Á. Tọa lạc tại Đà Nẵng, chúng tôi tự hào mang đến cho quý khách những món ăn sáng tạo, kết hợp hài hòa
+                                         giữa các nguyên liệu và kỹ thuật nấu ăn từ hai nền văn hóa ẩm thực phong phú nhất thế giới.</p>
+                                    <div class="banner-btn mt-4">
+                                        <a href="#menu" class="sec-btn">Xem thực đơn</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="banner-img-wp">
+                                    <div class="banner-img" style="background-image: url(assets/images/main-b.jpg);">
+                                    </div>
+                                </div>
+                                <div class="banner-img-text mt-4 m-auto">
+                                    <h5 class="h5-title">Sushi</h5>
+                                    <p>NFood hân hạnh giới thiệu đến quý khách món Sushi Nhật Bản – biểu tượng
+                                         của sự tinh tế và nghệ thuật trong ẩm thực Á Đông. Sushi không chỉ là món ăn, mà
+                                          còn là một phần của văn hóa và truyền thống Nhật Bản, mang đến trải nghiệm ẩm thực tinh tế
+                                           và thanh nhã.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="brands-sec">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="brand-title mb-5">
+                                <h5 class="h5-title">Được tin cậy 49+ công ty</h5>
+                            </div>
+                            <div class="brands-row">
+                                <div class="brands-box">
+                                    <img src="assets/images/brands/b1.png" alt="">
+                                </div>
+                                <div class="brands-box">
+                                    <img src="assets/images/brands/b2.png" alt="">
+                                </div>
+                                <div class="brands-box">
+                                    <img src="assets/images/brands/b3.png" alt="">
+                                </div>
+                                <div class="brands-box">
+                                    <img src="assets/images/brands/b4.png" alt="">
+                                </div>
+                                <div class="brands-box">
+                                    <img src="assets/images/brands/b5.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about-sec section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="sec-title text-center mb-5">
+                                <p class="sec-sub-title mb-3">Về chúng tôi</p>
+                                <h2 class="h2-title">Khám phá chúng tôi <span>Câu chuyện nhà hàng hấp dẫn</span></h2>
+                                <div class="sec-title-shape mb-4">
+                                    <img src="assets/images/title-shape.svg" alt="">
+                                </div>
+                                <p>Tại NFood, chúng tôi không chỉ đơn thuần là một nhà hàng, mà là
+                                     nơi quý khách có thể khám phá những hương vị mới lạ và độc đáo. Với không gian
+                                      sang trọng và ấm cúng, chúng tôi tạo nên một bầu không khí hoàn hảo cho các buổi hẹn hò, gặp gỡ bạn bè,
+                                       hay những bữa tiệc gia đình thân mật.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-8 m-auto">
+                            <div class="about-video">
+                                <div class="about-video-img" style="background-image: url(assets/images/about.jpg);">
+                                </div>
+                                <div class="play-btn-wp">
+                                    <a href="assets/images/video.mp4" data-fancybox="video" class="play-btn">
+                                        <i class="uil uil-play"></i>
+
+                                    </a>
+                                    <span>Xem công thức</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section style="background-image: url(assets/images/menu-bg.png);"
+                class="our-menu section bg-light repeat-img" id="menu">
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="sec-title text-center mb-5">
+                                    <p class="sec-sub-title mb-3">Thực đơn của chúng tôi</p>
+                                    <h2 class="h2-title">Dậy sớm, <span>ăn sạch & khỏe mạnh</span></h2>
+                                    <div class="sec-title-shape mb-4">
+                                        <img src="assets/images/title-shape.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-tab-wp">
+                            <div class="row">
+                                <div class="col-lg-12 m-auto">
+                                    <div class="menu-tab text-center">
+                                        <ul class="filters">
+                                            <div class="filter-active"></div>
+                                            <li class="filter" data-filter=".all, .breakfast, .lunch, .dinner">
+                                                <img src="assets/images/menu-1.png" alt="">
+                                                Tất cả
+                                            </li>
+                                            <li class="filter" data-filter=".breakfast">
+                                                <img src="assets/images/menu-2.png" alt="">
+                                                Bữa sáng
+                                            </li>
+                                            <li class="filter" data-filter=".lunch">
+                                                <img src="assets/images/menu-3.png" alt="">
+                                                Bữa trưa
+                                            </li>
+                                            <li class="filter" data-filter=".dinner">
+                                                <img src="assets/images/menu-4.png" alt="">
+                                                Bữa tối
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-list-row">
+                            <div class="row g-xxl-5 bydefault_show" id="menu-dish">
+                                <div class="col-lg-4 col-sm-6 dish-box-wp breakfast" data-cat="breakfast">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="assets/images/dish/1.png" alt="">
+                                        </div>
+                                        <div class="dish-rating">
+                                            5
+                                            <i class="uil uil-star"></i>
+                                        </div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Sallad Gà</h3>
+                                            <p>120 calo</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li>
+                                                    <p>Loại</p>
+                                                    <b>Không Chay</b>
+                                                </li>
+                                                <li>
+                                                    <p>Người dùng</p>
+                                                    <b>2</b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>152.000 VNĐ</b>
+                                                </li>
+                                                <li>
+                                                    <button class="dish-add-btn">
+                                                        <i class="uil uil-plus"></i>
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 2 -->
+                                <div class="col-lg-4 col-sm-6 dish-box-wp breakfast" data-cat="breakfast">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="assets/images/dish/2.png" alt="">
+                                        </div>
+                                        <div class="dish-rating">
+                                            4.3
+                                            <i class="uil uil-star"></i>
+                                        </div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Gà Nướng</h3>
+                                            <p>80 calo</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li>
+                                                    <p>Loại</p>
+                                                    <b>Không Chay</b>
+                                                </li>
+                                                <li>
+                                                    <p>Người dùng</p>
+                                                    <b>1</b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>109.000 VNĐ</b>
+                                                </li>
+                                                <li>
+                                                    <button class="dish-add-btn">
+                                                        <i class="uil uil-plus"></i>
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 3 -->
+                                <div class="col-lg-4 col-sm-6 dish-box-wp lunch" data-cat="lunch">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="assets/images/dish/3.png" alt="">
+                                        </div>
+                                        <div class="dish-rating">
+                                            4
+                                            <i class="uil uil-star"></i>
+                                        </div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Mì Paneer</h3>
+                                            <p>100 calo</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li>
+                                                    <p>Loại</p>
+                                                    <b>Chay</b>
+                                                </li>
+                                                <li>
+                                                    <p>Người dùng</p>
+                                                    <b>2</b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>45.000 VNĐ</b>
+                                                </li>
+                                                <li>
+                                                    <button class="dish-add-btn">
+                                                        <i class="uil uil-plus"></i>
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 4 -->
+                                <div class="col-lg-4 col-sm-6 dish-box-wp lunch" data-cat="lunch">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="assets/images/dish/4.png" alt="">
+                                        </div>
+                                        <div class="dish-rating">
+                                            4.5
+                                            <i class="uil uil-star"></i>
+                                        </div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Mì Gà</h3>
+                                            <p>120 calo</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li>
+                                                    <p>Loại</p>
+                                                    <b>Không Chay</b>
+                                                </li>
+                                                <li>
+                                                    <p>Người dùng</p>
+                                                    <b>2</b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>115.000 VNĐ</b>
+                                                </li>
+                                                <li>
+                                                    <button class="dish-add-btn">
+                                                        <i class="uil uil-plus"></i>
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 5 -->
+                                <div class="col-lg-4 col-sm-6 dish-box-wp dinner" data-cat="dinner">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="assets/images/dish/5.png" alt="">
+                                        </div>
+                                        <div class="dish-rating">
+                                            5
+                                            <i class="uil uil-star"></i>
+                                        </div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Bánh Mì Trứng Luộc</h3>
+                                            <p>120 calo</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li>
+                                                    <p>Loại</p>
+                                                    <b>Không Chay</b>
+                                                </li>
+                                                <li>
+                                                    <p>Người dùng</p>
+                                                    <b>2</b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>30.000 VNĐ</b>
+                                                </li>
+                                                <li>
+                                                    <button class="dish-add-btn">
+                                                        <i class="uil uil-plus"></i>
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 6 -->
+                                <div class="col-lg-4 col-sm-6 dish-box-wp dinner" data-cat="dinner">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="assets/images/dish/6.png" alt="">
+                                        </div>
+                                        <div class="dish-rating">
+                                            5
+                                            <i class="uil uil-star"></i>
+                                        </div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Sallad Trộn</h3>
+                                            <p>120 calo</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li>
+                                                    <p>Loại</p>
+                                                    <b>Chay</b>
+                                                </li>
+                                                <li>
+                                                    <p>Người dùng</p>
+                                                    <b>2</b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>48.000 VNĐ</b>
+                                                </li>
+                                                <li>
+                                                    <button class="dish-add-btn">
+                                                        <i class="uil uil-plus"></i>
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="two-col-sec section">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5">
+                            <div class="sec-img mt-5">
+                                <img src="assets/images/pizza.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="sec-text">
+                                <h2 class="xxl-title">Gà Pepperoni</h2>
+                                <p>Gà Pepperoni là một món ăn phổ biến trong ẩm thực phương Tây, đặc biệt là ở Mỹ. Đây là món
+                                     gà được ướp gia vị và nướng chín với các lát pepperoni, một loại xúc xích Ý có hương vị
+                                      thơm ngon từ ớt chuông và húng quế.</p>
+                                <p>Món gà Pepperoni thường được dùng trong các bữa tiệc, dịp sum họp gia đình hay bạn bè, và được yêu thích
+                                     bởi sự hòa quyện giữa hương vị của gà nướng và pepperoni. Nếu bạn thích khám phá và thử nghiệm các món ăn quốc tế,
+                                      đây là một lựa chọn tuyệt vời để mang đến bữa ăn của bạn.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="two-col-sec section pt-0">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 order-lg-1 order-2">
+                            <div class="sec-text">
+                                <h2 class="xxl-title">Cơm Cuộn Sushi</h2>
+                                <p>
+                                    Cơm cuộn sushi, hay sushi roll, là một món ăn Nhật Bản phổ biến trên toàn thế giới. Đây là một
+                                     món sushi được làm từ cơm trộn với giấm, được cuộn chặt trong một lớp rong biển (nori) và bên trong
+                                      có nhân, thường là hải sản hoặc các loại rau củ, và thỉnh thoảng có thêm các loại cá sống hoặc nướng.</p>
+                                <p>Cơm cuộn sushi là một món ăn nhẹ, tươi ngon và đầy dinh dưỡng. Nó không chỉ thú vị khi thưởng thức mà còn là
+                                     một trải nghiệm thú vị khi bạn tự tay làm được. Chúc bạn thành công và thực hiện được một bữa ăn sushi ngon
+                                      lành!</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 order-lg-2 order-1">
+                            <div class="sec-img">
+                                <img src="assets/images/sushi.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="book-table section bg-light">
+                <div class="book-table-shape">
+                    <img src="assets/images/table-leaves-shape.png" alt="">
+                </div>
+
+                <div class="book-table-shape book-table-shape2">
+                    <img src="assets/images/table-leaves-shape.png" alt="">
+                </div>
+
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="sec-title text-center mb-5">
+                                    <p class="sec-sub-title mb-3">ĐẶT BÀN</p>
+                                    <h2 class="h2-title">Bàn Mở</h2>
+                                    <div class="sec-title-shape mb-4">
+                                        <img src="assets/images/title-shape.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="book-table-info">
+                            <div class="row align-items-center">
+                                <div class="col-lg-4">
+                                    <div class="table-title text-center">
+                                        <h3>Thứ 2 Tới Thứ 5</h3>
+                                        <p>9:00 - 22:00</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="call-now text-center">
+                                        <i class="uil uil-phone"></i>
+                                        <a href="tel:+91-8866998866">+84 - 382685400</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="table-title text-center">
+                                        <h3>Thứ 6 Tới Chủ Nhật</h3>
+                                        <p>11::00 to 20:00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row" id="gallery">
+                            <div class="col-lg-10 m-auto">
+                                <div class="book-table-img-slider" id="icon">
+                                    <div class="swiper-wrapper">
+                                        <a href="assets/images/bt1.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(assets/images/bt1.jpg)"></a>
+                                        <a href="assets/images/bt2.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(assets/images/bt2.jpg)"></a>
+                                        <a href="assets/images/bt3.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(assets/images/bt3.jpg)"></a>
+                                        <a href="assets/images/bt4.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(assets/images/bt4.jpg)"></a>
+                                        <a href="assets/images/bt1.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(assets/images/bt1.jpg)"></a>
+                                        <a href="assets/images/bt2.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(assets/images/bt2.jpg)"></a>
+                                        <a href="assets/images/bt3.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(assets/images/bt3.jpg)"></a>
+                                        <a href="assets/images/bt4.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(assets/images/bt4.jpg)"></a>
+                                    </div>
+
+                                    <div class="swiper-button-wp">
+                                        <div class="swiper-button-prev swiper-button">
+                                            <i class="uil uil-angle-left"></i>
+                                        </div>
+                                        <div class="swiper-button-next swiper-button">
+                                            <i class="uil uil-angle-right"></i>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="our-team section">
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="sec-title text-center mb-5">
+                                    <p class="sec-sub-title mb-3">Đội Chúng Tôi</p>
+                                    <h2 class="h2-title">Gặp Gỡ Những Đầu Bếp</h2>
+                                    <div class="sec-title-shape mb-4">
+                                        <img src="assets/images/title-shape.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row team-slider">
+                            <div class="swiper-wrapper">
+                                <div class="col-lg-4 swiper-slide">
+                                    <div class="team-box text-center">
+                                        <div style="background-image: url(assets/images/chef/c1.jpg);"
+                                            class="team-img back-img">
+
+                                        </div>
+                                        <h3 class="h3-title">Nilay Hirpara</h3>
+                                        <div class="social-icon">
+                                            <ul>
+                                                <li>
+                                                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-youtube"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 swiper-slide">
+                                    <div class="team-box text-center">
+                                        <div style="background-image: url(assets/images/chef/c2.jpg);"
+                                            class="team-img back-img">
+
+                                        </div>
+                                        <h3 class="h3-title">Ravi Kumawat</h3>
+                                        <div class="social-icon">
+                                            <ul>
+                                                <li>
+                                                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-youtube"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 swiper-slide">
+                                    <div class="team-box text-center">
+                                        <div style="background-image: url(assets/images/chef/c3.jpg);"
+                                            class="team-img back-img">
+
+                                        </div>
+                                        <h3 class="h3-title">Navnit Kumar</h3>
+                                        <div class="social-icon">
+                                            <ul>
+                                                <li>
+                                                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-youtube"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 swiper-slide">
+                                    <div class="team-box text-center">
+                                        <div style="background-image: url(assets/images/chef/c4.jpg);"
+                                            class="team-img back-img">
+
+                                        </div>
+                                        <h3 class="h3-title">Pranav Badgal</h3>
+                                        <div class="social-icon">
+                                            <ul>
+                                                <li>
+                                                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-youtube"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 swiper-slide">
+                                    <div class="team-box text-center">
+                                        <div style="background-image: url(assets/images/chef/c5.jpg);"
+                                            class="team-img back-img">
+
+                                        </div>
+                                        <h3 class="h3-title">Priyotosh Dey</h3>
+                                        <div class="social-icon">
+                                            <ul>
+                                                <li>
+                                                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-youtube"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-wp">
+                                <div class="swiper-button-prev swiper-button">
+                                    <i class="uil uil-angle-left"></i>
+                                </div>
+                                <div class="swiper-button-next swiper-button">
+                                    <i class="uil uil-angle-right"></i>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="testimonials section bg-light">
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="sec-title text-center mb-5">
+                                    <p class="sec-sub-title mb-3">Họ nói gì</p>
+                                    <h2 class="h2-title">Khách hàng nói gì <span>về chúng tôi</span></h2>
+                                    <div class="sec-title-shape mb-4">
+                                        <img src="assets/images/title-shape.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="testimonials-img">
+                                    <img src="assets/images/testimonial-img.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="testimonials-box">
+                                            <div class="testimonial-box-top">
+                                                <div class="testimonials-box-img back-img"
+                                                    style="background-image: url(assets/images/testimonials/t1.jpg);">
+                                                </div>
+                                                <div class="star-rating-wp">
+                                                    <div class="star-rating">
+                                                        <span class="star-rating__fill" style="width:85%"></span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="testimonials-box-text">
+                                                <h3 class="h3-title">
+                                                    Nilay Hirpara
+                                                </h3>
+                                                <p>Để trở thành một đầu bếp xuất sắc, đam mê với nghề và tâm huyết là điều không thể thiếu.
+                                                     Đây là nguồn động lực để họ nghiên cứu, thử nghiệm và sáng tạo ra các món ăn độc đáo và ngon miệng.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="testimonials-box">
+                                            <div class="testimonial-box-top">
+                                                <div class="testimonials-box-img back-img"
+                                                    style="background-image: url(assets/images/testimonials/t2.jpg);">
+                                                </div>
+                                                <div class="star-rating-wp">
+                                                    <div class="star-rating">
+                                                        <span class="star-rating__fill" style="width:80%"></span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="testimonials-box-text">
+                                                <h3 class="h3-title">
+                                                    Ravi Kumawat
+                                                </h3>
+                                                <p>Đầu bếp cần có kỹ năng chế biến các thành phần thành món ăn hoàn hảo, từ việc điều chỉnh
+                                                     lửa cho đến chế biến thời gian và phương pháp nấu nướng.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="testimonials-box">
+                                            <div class="testimonial-box-top">
+                                                <div class="testimonials-box-img back-img"
+                                                    style="background-image: url(assets/images/testimonials/t3.jpg);">
+                                                </div>
+                                                <div class="star-rating-wp">
+                                                    <div class="star-rating">
+                                                        <span class="star-rating__fill" style="width:89%"></span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="testimonials-box-text">
+                                                <h3 class="h3-title">
+                                                    Navnit Kumar
+                                                </h3>
+                                                <p>Họ có khả năng sáng tạo để biến những nguyên liệu đơn giản
+                                                     thành những món ăn đặc biệt, đồng thời sử dụng tối đa các tài nguyên có sẵn để giảm thiểu lãng phí.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="testimonials-box">
+                                            <div class="testimonial-box-top">
+                                                <div class="testimonials-box-img back-img"
+                                                    style="background-image: url(assets/images/testimonials/t4.jpg);">
+                                                </div>
+                                                <div class="star-rating-wp">
+                                                    <div class="star-rating">
+                                                        <span class="star-rating__fill" style="width:100%"></span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="testimonials-box-text">
+                                                <h3 class="h3-title">
+                                                    Somyadeep Bhowmik
+                                                </h3>
+                                                <p>Đầu bếp không chỉ đảm bảo món ăn ngon miệng mà còn phải đảm bảo chất lượng an toàn thực phẩm
+                                                     và tuân thủ các quy định vệ sinh.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="faq-sec section-repeat-img" style="background-image: url(assets/images/faq-bg.png);">
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="sec-title text-center mb-5">
+                                    <p class="sec-sub-title mb-3">câu hỏi thường gặp</p>
+                                    <h2 class="h2-title">Thường xuyên <span>câu hỏi đặt ra</span></h2>
+                                    <div class="sec-title-shape mb-4">
+                                        <img src="assets/images/title-shape.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="faq-row">
+                            <div class="faq-box">
+                                <h4 class="h4-title">Giờ hoạt động là khi nào?</h4>
+                                <p>Chúng tôi hoạt động từ 9:00 sáng đến 10:00 tối(từ Thứ 2 tới Thứ 5) và 11:00 sáng đến 10:00 tối(từ thứ 6 tới Chủ Nhật).</p>
+                            </div>
+                            <div class="faq-box">
+                                <h4 class="h4-title">Tôi sẽ nhận được hoàn tiền như thế nào?</h4>
+                                <p>Chúng tôi sẽ xử lý hoàn tiền của bạn trong vòng 3-5 ngày làm việc. Vui lòng liên hệ với chúng tôi
+                                     để biết thêm chi tiết.</p>
+                            </div>
+                            <div class="faq-box">
+                                <h4 class="h4-title">Thời gian giao đồ ăn là bao lâu?</h4>
+                                <p>Thời gian giao hàng thường khoảng từ 30 phút đến 1 giờ, phụ thuộc vào độ xa gần và lưu lượng đơn hàng.</p>
+                            </div>
+                            <div class="faq-box">
+                                <h4 class="h4-title">Nhà hàng của bạn có cả món chay và món thịt không?</h4>
+                                <p>Vâng, chúng tôi có cả món chay và món thịt trong thực đơn của chúng tôi.</p>
+                            </div>
+                            <div class="faq-box">
+                                <h4 class="h4-title">Chi phí giao hàng đồ ăn là bao nhiêu?</h4>
+                                <p>Chi phí giao hàng của chúng tôi phụ thuộc vào khoảng cách và khu vực, thông thường từ 20,000 VNĐ đến 50,000 VNĐ
+                                     tùy theo địa điểm giao hàng.</p>
+                            </div>
+                            <div class="faq-box">
+                                <h4 class="h4-title">Ai được phép tham gia thành viên chuyên nghiệp?</h4>
+                                <p>Thành viên chuyên nghiệp của chúng tôi dành cho các khách hàng thường xuyên hoặc đặt hàng với số lượng lớn. Vui lòng liên hệ
+                                     với chúng tôi để biết thêm chi tiết về các lợi ích và điều kiện tham gia.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+
+            <div class="bg-pattern bg-light repeat-img"
+                style="background-image: url(assets/images/blog-pattern-bg.png);">
+                <section class="blog-sec section" id="blog">
+                    <div class="sec-wp">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="sec-title text-center mb-5">
+                                        <p class="sec-sub-title mb-3">Nhật Kí Của Chúng Tôi</p>
+                                        <h2 class="h2-title">Các Xuất Bản Mới Nhất VỀ Món Ăn</span></h2>
+                                        <div class="sec-title-shape mb-4">
+                                            <img src="assets/images/title-shape.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="blog-box">
+                                        <div class="blog-img back-img"
+                                            style="background-image: url(assets/images/blog/blog1.jpg);"></div>
+                                        <div class="blog-text">
+                                            <p class="blog-date">15.9.2023</p>
+                                            <a href="#" class="h4-title">Nước tăng lực mà bạn có thể làm ở nhà.</a>
+                                                <p>Nước tăng lực là một loại đồ uống thường được sử dụng để cung cấp năng lượng và sảng khoái
+                                                 cho cơ thể, đặc biệt là trong những khoảnh khắc cần sự tỉnh táo và tập trung. Các loại nước tăng lực thường có thể
+                                                  được mua sẵn trong các cửa hàng, nhưng bạn cũng có thể tự làm tại nhà với những nguyên liệu đơn giản và tự nhiên.</p>
+                                            <a href="#" class="sec-btn">Đọc Thêm</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="blog-box">
+                                        <div class="blog-img back-img"
+                                            style="background-image: url(assets/images/blog/blog2.jpg);"></div>
+                                        <div class="blog-text">
+                                            <p class="blog-date">15.10.2023</p>
+                                            <a href="#" class="h4-title">Combo rau tươi và cơm cho bữa tối.</a>
+                                            <p>Combo rau tươi và cơm cho bữa tối là một sự kết hợp hoàn hảo giữa những loại rau xanh tươi ngon
+                                                và cơm trắng thơm ngon, tạo nên một bữa ăn giàu dinh dưỡng và cân bằng. Đây là một lựa chọn phổ biến
+                                                 trong chế độ ăn uống lành mạnh và đa dạng hóa khẩu vị.</p>
+                                            <a href="#" class="sec-btn">Đọc Thêm</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="blog-box">
+                                        <div class="blog-img back-img"
+                                            style="background-image: url(assets/images/blog/blog3.jpg);"></div>
+                                        <div class="blog-text">
+                                            <p class="blog-date">15.10.2022</p>
+                                            <a href="#" class="h4-title">Burger gà với cốm đôi</a>
+                                            <p>Burger gà với cốm đôi là một món ăn phổ biến và hấp dẫn, kết hợp giữa khẩu vị thơm ngon của thịt gà
+                                                 và sự ngọt ngào của cốm đôi. </p>
+                                            <a href="#" class="sec-btn">Đọc Thêm</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="newsletter-sec section pt-0">
+                    <div class="sec-wp">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-8 m-auto">
+                                    <div class="newsletter-box text-center back-img white-text"
+                                        style="background-image: url(assets/images/news.jpg);">
+                                        <div class="bg-overlay dark-overlay"></div>
+                                        <div class="sec-wp">
+                                            <div class="newsletter-box-text">
+                                                <h2 class="h2-title">Đăng ký nhận tin tức từ chúng tôi</h2>
+                                                <p>Đăng ký nhận tin tức từ chúng tôi để cập nhật những thông tin mới nhất,
+                                                     các ưu đãi đặc biệt và các sự kiện sắp tới. Chỉ cần nhập địa chỉ email
+                                                      của bạn vào ô đăng ký dưới đây và bạn sẽ nhận được thông tin trực tiếp vào hộp thư của mình.</p>
+                                            </div>
+                                            <form action="#" class="newsletter-form">
+                                                <input type="email" class="form-input"
+                                                    placeholder="Enter your Email Here" required>
+                                                <button type="submit" class="sec-btn primary-btn">Đăng kí</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- footer starts  -->
+            <footer class="site-footer" id="contact">
+                <div class="top-footer section">
+                    <div class="sec-wp">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="footer-info">
+                                        <div class="footer-logo">
+                                            <a href="index.html">
+                                                <img src="logo.png" alt="">
+                                            </a>
+                                        </div>
+                                        <p>Cảm ơn bạn đã ghé thăm nhà hàng chúng tôi. Hãy đến và trải nghiệm những món ăn tuyệt vời
+                                             và dịch vụ chuyên nghiệp của chúng tôi.
+                                        </p>
+                                        <div class="social-icon">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-facebook-f"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-github-alt"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-youtube"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="footer-flex-box">
+                                        <div class="footer-table-info">
+                                            <h3 class="h3-title">Thời gian mở</h3>
+                                            <ul>
+                                                <li><i class="uil uil-clock"></i> Thứ 2-Thứ 5: 9 sáng - 22tối</li>
+                                                <li><i class="uil uil-clock"></i> Thứ 6-Chủ nhật: 11 sáng - 22 tối</li>
+                                            </ul>
+                                        </div>
+                                        <div class="footer-menu food-nav-menu">
+                                            <h3 class="h3-title">Địa Chỉ</h3>
+                                            <ul class="column-2">
+                                                <li>
+                                                    <a href="#home" class="footer-active-menu">Trang Chủ</a>
+                                                </li>
+                                                <li><a href="#about">Về Chúng Tôi</a></li>
+                                                <li><a href="#menu">Thực Đơn</a></li>
+                                                <li><a href="#gallery">Trứng Bày</a></li>
+                                                <li><a href="#blog">Nhật kí</a></li>
+                                                <li><a href="#contact">Liên Hệ</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="footer-menu">
+                                            <h3 class="h3-title">Công ty</h3>
+                                            <ul>
+                                                <li><a href="#">Viettel Group</a></li>
+                                                <li><a href="#">VinGroup</a></li>
+                                                <li><a href="#">FPT Cổpration</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <!-- jquery  -->
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <!-- bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+
+    <!-- fontawesome  -->
+    <script src="assets/js/font-awesome.min.js"></script>
+
+    <!-- swiper slider  -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!-- mixitup -- filter  -->
+    <script src="assets/js/jquery.mixitup.min.js"></script>
+
+    <!-- fancy box  -->
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+
+    <!-- parallax  -->
+    <script src="assets/js/parallax.min.js"></script>
+
+    <!-- gsap  -->
+    <script src="assets/js/gsap.min.js"></script>
+
+    <!-- scroll trigger  -->
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <!-- scroll to plugin  -->
+    <script src="assets/js/ScrollToPlugin.min.js"></script>
+    <!-- rellax  -->
+    <!-- <script src="assets/js/rellax.min.js"></script> -->
+    <!-- <script src="assets/js/rellax-custom.js"></script> -->
+    <!-- smooth scroll  -->
+    <script src="assets/js/smooth-scroll.js"></script>
+    <!-- custom js  -->
+    <script src="main.js"></script>
+
+</body>
+
+</html>
